@@ -1,0 +1,81 @@
+/* Container for the right box */
+.right-box1 {
+  width: 720px;
+  height: 280px;
+  position: relative;
+  top: 86px;
+  left: 922px;
+  background: linear-gradient(180deg, rgba(55, 62, 68, 1) -100%, rgba(25, 27, 31, 1) 100%);
+  border-radius: 16px;
+  box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+/* Styling the tab buttons */
+.tabs {
+  display: flex;
+  gap: 10px;
+}
+
+.tab {
+  width: 195px;
+  height: 49px;
+  border-radius: 16px;
+  background: rgba(40, 41, 47, 1);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 16.12px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 13.49px 16.87px 67.47px 8.43px rgba(10, 10, 10, 1),
+    -8.43px -16.87px 50.6px -16.87px rgba(72, 91, 113, 1);
+}
+
+/* Active tab styling */
+.tab.active {
+  background: linear-gradient(90deg, rgba(39, 39, 40, 0.1176) 0%, rgba(150, 190, 231, 0.0576) 100%);
+}
+
+/* About Me tab */
+.About-Me {
+  width: 87px;
+  height: 17px;
+  color: white;
+  background: rgba(255, 255, 255, 1);
+}
+
+/* Experiences tab */
+.Experiences {
+  width: 108px;
+  height: 17px;
+  color: rgba(163, 173, 178, 1);
+  background: rgba(163, 173, 178, 1);
+}
+
+/* Recommended tab */
+.Recommended {
+  width: 141px;
+  height: 17px;
+  color: rgba(163, 173, 178, 1);
+  background: rgba(163, 173, 178, 1);
+}
+
+/* Content area */
+.content {
+  margin-top: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: rgba(23, 23, 23, 1);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0px 4.96px 12.4px 2.48px rgba(0, 0, 0, 0.25) inset;
+}
+
+

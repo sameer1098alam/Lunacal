@@ -1,0 +1,86 @@
+.right-box2 {
+  width: 755px; /* Updated width */
+  height: 330px; /* Updated height */
+  position: absolute;
+  top: 453px; /* Updated top position */
+  left: 950px; /* Updated left position */
+  background: rgba(54, 60, 67, 1); /* Updated background color */
+  border-radius: 23px 23px 23px 23px;
+  box-shadow: 0px 4.96px 12.4px 2.48px rgba(0, 0, 0, 0.25) inset;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden; /* Hide any overflow */
+}
+
+.gallery-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.gallery-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #ffffff;
+  background: rgba(23, 23, 23, 1);
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25) inset;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.add-image-button {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  color: #ffffff;
+  background: linear-gradient(135deg, #00b4d8, #0077b6); /* Gradient background */
+  border: none;
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-right: 15px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.add-image-button:hover {
+  background: linear-gradient(135deg, #0077b6, #00b4d8); /* Reverse gradient on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.ellipse-container {
+  display: flex;
+  align-items: center;
+}
+
+.ellipse-button {
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%);
+  box-shadow: 4px 5px 30px 5px rgba(16, 18, 19, 1), -5px -3px 30px -10px rgba(150, 190, 231, 1);
+  border-radius: 50%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.gallery-images {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+.gallery-image {
+  width: 300px;
+  height: 319px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.33);
+  background: linear-gradient(180deg, rgba(40, 40, 40, 0.1) 0%, rgba(248, 248, 248, 0.1) 100%);
+}
+

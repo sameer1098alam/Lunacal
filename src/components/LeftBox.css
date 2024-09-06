@@ -1,0 +1,39 @@
+.left-box {
+    width: 836px;
+    height: 689px;
+    position: absolute;
+    top: 96px;
+    left: 29px;
+    gap: 0px;
+    border-radius: 27px 27px 27px 27px;
+    opacity: 1; /* Set to 1 to ensure visibility */
+    background-color: rgba(97, 97, 97, 0.82); /* Semi-transparent gray background */
+    border: 1px solid rgba(150, 190, 231, 1); /* Solid border with the specified color */
+    box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+    padding: 20px;
+  }
+  
+  
+  
+  .left-box-text {
+    width: 791px;
+    height: 694px;
+    position: absolute;
+    top: 89px;
+    left: 40px;
+    
+    gap: 0px;
+    opacity: 1; /* Opacity set to 1 to ensure visibility */
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background: transparent; /* Background is transparent, color is set via `color` */
+  }
+  
+  .left-box-text span {
+    font-weight: 500; /* Slightly less bold */
+  }
+  

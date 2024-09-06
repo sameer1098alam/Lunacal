@@ -1,0 +1,29 @@
+.main-container {
+  
+  width: 1728px;
+  height: 895px;
+  top:-1468px;
+  border-radius: 28px 28px 28px 28px;
+  background: linear-gradient(180deg, #373E44 -100%, #191B1F 100%);
+  box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+
+/* Container for MacBook Pro 16" styling */
+.macbook-container {
+  width: 160px;
+  height: auto; /* Adjust as per your content */
+  
+  /* Background gradient */
+  background: linear-gradient(180deg, #373E44 -100%, #191B1F 100%);
+  
+  /* Box shadow */
+  box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.5);
+  
+  /* Border radius, optional for rounded corners */
+  border-radius: 8px;
+}
+
